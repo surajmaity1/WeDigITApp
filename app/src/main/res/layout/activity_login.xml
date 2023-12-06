@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".LoginActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/log_in_back_btn"
+            android:layout_width="16dp"
+            android:layout_height="26dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/ic_back_btn"
+            android:contentDescription="@string/back_button_description"
+            android:textColor="@color/back_btn_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="66dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:gravity="left"
+                android:text="@string/welcome_back"
+                android:textColor="@color/main_txt_color"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/email_txt_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:text="@string/enter_email"
+                android:textColor="@color/main_txt_color"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/email_input"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:autofillHints="phone"
+                android:background="@drawable/edit_text_border"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:paddingHorizontal="8dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/edt_txt_txt_color"
+                android:textColorHint="@color/edt_txt_txt_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/password_txt_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="@string/password"
+                android:textColor="@color/main_txt_color"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/password_input"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:autofillHints="phone"
+                android:background="@drawable/edit_text_border"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:paddingHorizontal="8dp"
+                android:paddingStart="10dp"
+                android:textColor="@color/edt_txt_txt_color"
+                android:textColorHint="@color/edt_txt_txt_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:lineHeight="24dp"
+                android:text="@string/forgot_password"
+                android:textColor="@color/forgot_password_txt_color"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/log_in_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/offblack_button_color_layout"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="@string/login"
+                android:textColor="@color/edt_txt_txt_color"
+                android:textFontWeight="2"
+                android:textSize="18sp"
+                app:backgroundTint="@null" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:lineHeight="24dp"
+                    android:text="@string/new_to_wejammin"
+                    android:textColor="@color/main_txt_color"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:lineHeight="24dp"
+                    android:text=" "
+                    android:textColor="@color/forgot_password_txt_color"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:lineHeight="24dp"
+                    android:text="@string/sign_up_here"
+                    android:textColor="@color/forgot_password_txt_color"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:lineHeight="24dp"
+                    android:text="By entering, you agree to Wejammin’s "
+                    android:textColor="@color/main_txt_color"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:lineHeight="24dp"
+                    android:text="Privacy Policy "
+                    android:textColor="@color/forgot_password_txt_color"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:lineHeight="24dp"
+                    android:text="and"
+                    android:textColor="@color/main_txt_color"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:lineHeight="24dp"
+                android:text="@string/terms_of_service"
+                android:textColor="@color/forgot_password_txt_color"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+    </FrameLayout>
+</ScrollView>
