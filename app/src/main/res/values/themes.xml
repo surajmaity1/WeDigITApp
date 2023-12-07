@@ -13,4 +13,7 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.WeDigITApp.OverlayAppBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.WeDigITApp.OverlayPopUp" parent="ThemeOverlay.AppCompat.Light"/>
 </resources>
