@@ -36,7 +36,7 @@
         android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:text="WeDigIT AI-Powered audio tech toolkit"
-        android:textSize="42sp"
+        android:textSize="35sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="AI-driven company"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />

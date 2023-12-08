@@ -119,34 +119,34 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:lineHeight="24dp"
                     android:text="@string/new_to_wejammin"
                     android:textColor="@color/main_txt_color"
-                    android:textSize="17sp" />
+                    android:textSize="14sp" />
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:lineHeight="24dp"
                     android:text=" "
                     android:textColor="@color/forgot_password_txt_color"
-                    android:textSize="17sp" />
+                    android:textSize="14sp" />
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:lineHeight="24dp"
                     android:text="@string/sign_up_here"
                     android:textColor="@color/forgot_password_txt_color"
-                    android:textSize="17sp" />
+                    android:textSize="14sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -157,7 +157,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -167,7 +167,7 @@
                     android:textSize="13sp" />
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -177,7 +177,7 @@
                     android:textSize="13sp" />
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -188,7 +188,7 @@
             </LinearLayout>
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"
